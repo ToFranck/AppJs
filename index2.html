@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Left</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">  
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+        <a href="#">About</a>  
+        <a href="#">Services</a>  
+        <a href="#">Clients</a>  
+        <a href="#">Contact</a>  
+       </div>  
+       <!-- Use any element to open the sidenav -->  
+       <span onclick="openNav()"><img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" width="40px" style="padding-top: 40px; padding-left: 40px;"></span>  
+       <div id="main">  
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, earum? Blanditiis expedita quam voluptatum, sequi tempore esse ullam! Reprehenderit cumque sed excepturi minima veritatis, est quam unde delectus expedita quo.</p>
+       </div>  
+
+
+       <script>//
+            /* Set the width of the side navigation to 250px */  
+            function openNav() {  
+            document.getElementById("mySidenav").style.width = "300px";  
+            }  
+            /* Set the width of the side navigation to 0 */  
+            function closeNav() {  
+            document.getElementById("mySidenav").style.width = "0";  
+            }  
+       </script>
+</body>
+</html>
